@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Paint</title>
+	<link rel="stylesheet" type="text/css" href="Slutuppgift.css">
+</head>
+<body>
+
+<div id="Paper">
+	<canvas id="myCanvas" width="1250" height="480"></canvas>
+</div>
+
+<div id="settings">
+	<div id="show">
+		<canvas id="Showcircle" width="100" height="100"></canvas>
+	</div>
+
+	<div id="colors">
+		<button class="color blue"></button>
+		<button class="color red"></button>
+		<button class="color yellow"></button>
+		<button class="color orange"></button>
+		<button class="color purple"></button>
+		<button class="color green"></button>
+		<button class="color gray"></button>
+		<button class="color pink"></button>
+		<button class="color brown"></button>
+		<button class="color black"></button>
+		<button class="color white"></button>
+	</div>
+
+	<div id="size">
+		<input type="number" placeholder="Paint Size" class="Size inputsize">
+		<button class="Size Useinput">Use</button>
+		<button class="Size Small">Small</button>
+		<button class="Size Medium">Medium</button>
+		<button class="Size Large">Large</button>
+	</div>
+
+	<div id="Opaciteter">
+		<input type="number" placeholder="Opacity" class="Opacitet inputOpacitet">
+		<button class="Opacitet Use">Use</button>
+		<button class="Opacitet One">0%</button>
+		<button class="Opacitet Three">50%</button>
+		<button class="Opacitet Five">100%</button>
+	</div>
+
+	<div id="remove">
+		<button class="Remove UndoAll">Undo All</button>
+	</div>
+	
+	<div id="Save_to_computer">
+		<button class="Save_Image">Save Image</button>
+	</div>
+</div>
+
+<script src="Slutuppgift.js"></script>
+</body>
+</html>
